@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auth_users",
+  "info": {
+    "singularName": "auth-user",
+    "pluralName": "auth-users",
+    "displayName": "authUser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true
+    },
+    "kakaoToken": {
+      "type": "text"
+    },
+    "userName": {
+      "type": "string"
+    }
+  }
+}
